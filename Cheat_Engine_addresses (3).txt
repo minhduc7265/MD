@@ -430,7 +430,7 @@ The following excerpt is more complete ( source ):
 │├──624~638\\Each row of ice lanes disappear countdown
 │├──63C~650\\ each row of ice channel particle system number
 │├──6B4~54D0\\ out of list (accommodating 10 flags)
-│├──54D4~54F4\\[1 byte] strange type
+│├──54D4~54F4\\[1 byte] Zombie Type
 │├──5538\\Countdown to falling sunlight
 │├──553C\\Dropped sunlight count
 │├──5540\\non-zero, the screen will return to normal immediately
@@ -746,7 +746,7 @@ If you want to modify the list, you must first modify the following two places
 523E4A\\Red Eye Zombie HP
 5235AC\\The blood volume of the zombie zombie in ize
 5234BF\\Balloon Zombie Balloon Blood
-532FDC\\ Ash Attack
+532FDC\\ Ash Attack//jmp to Delete Ash
 Note that there is a judgment that directly turns into ashes and ignores the blood volume
 [532B96--cmp [esi+000000C8],00000708]
 41D931\\ Potato Thunder Attack
@@ -804,7 +804,10 @@ Attached:
     25 gift boxes
     26 gift box
     27 gift box
-
+    
+Call Ice EZ
+mov [zombie+AC],Time
+mov [zombie+B4],#50 //or time
 
 *pvzbase=[6A9EC0]
 *mainobject=[[6A9EC0]+768]
