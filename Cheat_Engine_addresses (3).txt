@@ -1,8 +1,4 @@
-#Monika Ngu Lồn rồi, khổ ghê
---I'll work for GOTY
 Pointer table
-The following excerpt is more complete ( source ):
-
 ┌6A9EC0\\Base address
 ├┬64\\Text pointer (+28Next)
 │└─28\\File path
@@ -808,9 +804,6 @@ Attached:
     26 gift box
     27 gift box
     
-Call Ice EZ
-mov [zombie+AC],Time
-mov [zombie+B4],#50 //or time
 
 *pvzbase=[6A9EC0]
 *mainobject=[[6A9EC0]+768]
