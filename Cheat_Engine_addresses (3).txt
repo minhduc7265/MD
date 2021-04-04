@@ -133,7 +133,7 @@ Pointer table
 ││ ├─148\\The number of lines of the Zombie Ice Fireball
 ││ ├─14C\\ ball type, ice hockey is 0
 ││ ├─158\\Zombie ID
-││ └─AB08\\Number of columns(DH version)
+││ └─1A8\\Number of columns(DH version)
 │├┬─94\\Maximum number of zombies
 ││├─98\\Maximum number of zombies
 ││├─9C\\Next zombie number
