@@ -135,6 +135,7 @@ Pointer table
 ││ ├─158\\Zombie ID
 ││ ├─1A8\\Number of columns(DH version)
 ││ └─1D0\\Time(DH version)
+││ └─1D8\\Zombie Stop(Byte)(DH version)
 │├┬─94\\Maximum number of zombies
 ││├─98\\Maximum number of zombies
 ││├─9C\\Next zombie number
