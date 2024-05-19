@@ -488,7 +488,13 @@ Pointer table
 │├──57A0\\Number of gold coins received
 │├──57A4\\Number of diamonds received
 │├──57A8\\Number of flower pots charged
+│├──5CC4\\SandStorm Function
+│├──5CC8\\SandStorm Time
+│├──5CCC\\DarkStorm 9-5
+│├──5CD0\\DarkStorm 9-5
 │└──57AC\\receive chocolate
+
+
 ├┬774\\tab interface attributes
 │├─88\\Rock [button]
 │├─8C\\(Debug Play)[button]
